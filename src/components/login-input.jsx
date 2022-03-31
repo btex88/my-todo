@@ -14,6 +14,11 @@ export default function LoginInput(props) {
   );
 }
 
+/*
+	  const categoriesDrinks = useSelector((state) => state.categoriesDrinks); // mapStateToProps
+  const dispatch = useDispatch(); // mapDispatchToProps
+*/
+
 LoginInput.propTypes = {
   type: PropTypes.string,
   placeholder: PropTypes.string,
