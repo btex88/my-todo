@@ -25,7 +25,7 @@ export default function Header() {
         />
       </div>
       <span className="w-[90%] text-2xl font-medium w-full text-left pt-8">
-        {`Whats's up, ${_.capitalize(user.name.split(' ')[0])}!`}
+        {`What's up, ${_.capitalize(user.name.split(' ')[0])}!`}
       </span>
     </div>
   );
