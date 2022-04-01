@@ -10,7 +10,7 @@ function Login() {
     <div className="w-full h-full flex flex-col items-center justify-center">
       {displayRegisterScreen && <RegisterScreen />}
       {displayPopUpMessage && <PopUpMessage />}
-      <span className="poppins text-2xl mb-16">Welcome to my toDo!</span>
+      <span className="font-semibold text-2xl mb-16 tracking-wider">my toDo</span>
       <LoginContainer />
     </div>
   );

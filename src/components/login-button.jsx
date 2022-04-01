@@ -21,6 +21,7 @@ export default function LoginButton(props) {
   const {
     login: { notFound, unauthorized },
   } = defaultMessages;
+
   const navigate = useNavigate();
 
   const cleanUp = () => {

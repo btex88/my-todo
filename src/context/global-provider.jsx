@@ -9,15 +9,16 @@ export default function GlobalProvider({ children }) {
   const [email, setEmail] = useState('');
   const [displayRegisterScreen, setDisplayRegisterScreen] = useState(false);
   const [user, setUser] = useState({
-    name: 'Bruno Teixeira',
-    email: 'btex88@gmail.com',
+    name: '',
+    email: '',
   });
   const [showPasswordTip, setShowPasswordTip] = useState(false);
   const [popUpMessage, setPopUpMessage] = useState({ title: '', message: '' });
   const [displayPopUpMessage, setDisplayPopUpMessage] = useState(false);
   const [allTasks, setAllTasks] = useState([]);
-  const [taskCategory, setTaksCategory] = useState('');
+  const [taskCategory, setTaskCategory] = useState('');
   const [currentTask, setCurrentTask] = useState('');
+  const [displayNewTaskContainer, setDisplayNewTaskContainer] = useState(false);
 
   const memoObj = {
     user,
@@ -41,9 +42,11 @@ export default function GlobalProvider({ children }) {
     allTasks,
     setAllTasks,
     taskCategory,
-    setTaksCategory,
+    setTaskCategory,
     currentTask,
     setCurrentTask,
+    displayNewTaskContainer,
+    setDisplayNewTaskContainer,
   };
 
   const memo = useMemo(() => memoObj, [memoObj]);
