@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# my toDo
+Project developed in React with ContextAPI and TailwindCSS.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Why does this exist?
+- This project was developed as a technical challenge to test my skills with frontend development.
 
-In the project directory, you can run:
 
-### `npm start`
+### Main concepts used in this project were:
+- Divide every function, functionality or element into components to better arrange and segment the code.
+- Don't be afraid to use multiple states and transform local states into global ones.
+- Use of CSS frameworks to help the development and improve the appealingness, in this case I've used TailwindCSS.
+- Develop business logic into a ```src/service``` folder.
+- Name all folders and files in __```kebab-case```__, JSX classes in __```PascalCase```__ and JS functions in __```cammelCase```__.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Links of features, dependencies, images and frameworks used in this app
 
-### `npm test`
+- [TailwindCSS v3 Documentation](https://tailwindcss.com/docs/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Flaticon](https://www.flaticon.com/)
 
-### `npm run build`
+- [Crypto JS](https://github.com/brix/crypto-js)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [React Icons](https://react-icons.github.io/react-icons)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [Lodash](https://lodash.com/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [React Router Dom v6](https://reactrouter.com/docs/en/v6/getting-started/overview)
 
-### `npm run eject`
+- [UUID JS](https://github.com/uuidjs/uuid)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [Validator JS](https://github.com/validatorjs/validator.js)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## How to clone it and make it run?
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- First thing is to clone the repository into your machine.
+- Than you need to enter the root folder of the project and run in your terminal the folowing: **```npm install```**
+- After this process is done, just need to run **```npm start```** and your ready to go.
 
-## Learn More
+## Vercel deployment
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[my toDo](https://ativy-challenge.vercel.app/)
