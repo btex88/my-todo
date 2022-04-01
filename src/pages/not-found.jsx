@@ -16,7 +16,7 @@ export default function NotFound() {
         onClick={() => navigate('/')}
       />
       <span className="font_quicksand text-3xl sm:text-4xl md:text-5xl text-center mb-12">
-        Página não encontrada!
+        Page not found!
       </span>
       <img src={notFound} alt="not found" />
     </div>
