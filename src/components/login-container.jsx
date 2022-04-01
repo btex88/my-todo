@@ -4,6 +4,7 @@ import validateEmail from '../helpers/validate-email';
 import validatePassword from '../helpers/validate-password';
 import LoginButton from './login-button';
 import LoginInput from './login-input';
+import RegisterButton from './register-button';
 
 export default function LoginContainer() {
   const { email, setEmail, password, setPassword } = useContext(GlobalContext);
@@ -15,22 +16,24 @@ export default function LoginContainer() {
         <LoginInput
           placeholder="email@email.com"
           type="email"
-          value={email}
           setValue={setEmail}
+          value={email}
+          isValueChecked={validateEmail(email)}
         />
         <LoginInput
           placeholder="******"
           type="password"
-          value={password}
           setValue={setPassword}
+          value={password}
+          isValueChecked={validatePassword(password)}
         />
       </div>
       <div className="w-full flex flex-col items-center py-2">
         <LoginButton
           label="Login"
-          isDisabled={!validateEmail(email) && !validatePassword(password)}
+          isDisabled={!validateEmail(email) || !validatePassword(password)}
         />
-        <LoginButton label="Register" />
+        <RegisterButton />
       </div>
     </div>
   );
