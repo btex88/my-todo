@@ -35,8 +35,8 @@ export default function PopUpMessage() {
       bottom-0 left-0 right-0 bg-zinc-900/70 z-10"
     >
       <div
-        className="w-72 h-auto flex flex-col items-center justify-evenly pt-10 pb-4 border
-        z-20 bg-zinc-200 rounded shadow-lg shadow-zinc-400 relative"
+        className="w-72 h-auto flex flex-col items-center justify-evenly pt-10 pb-4 z-20
+        bg-white rounded shadow-lg shadow-zinc-400 relative"
       >
         <span
           className="w-9/12 h-auto text-lg font-semibold tracking-wide break-words

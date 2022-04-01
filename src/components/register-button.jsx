@@ -53,31 +53,15 @@ export default function RegisterButton(props) {
       type="button"
       disabled={isDisabled}
       onClick={handleClick}
-      className={`relative w-5/12 py-2 group my-2 text-sm
-      ${isDisabled ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'}
-      `}
+      className={`w-24 py-3 group my-2 text-sm bg-white text-teal-700 poppins border
+      border-teal-700 rounded-full
+      ${
+        isDisabled
+          ? 'opacity-50 cursor-not-allowed'
+          : 'hover:bg-teal-700 hover:text-white'
+      }`}
     >
-      <span
-        className={`
-        absolute inset-0 w-full h-full transition duration-300 ease-out
-        ${
-          isDisabled ||
-          `bg-teal-700 group-hover:-translate-x-0 transform translate-x-1
-        translate-y-1 group-hover:-translate-y-0`
-        }`}
-      />
-      <span
-        className={`absolute inset-0 w-full h-full  border border-teal-700
-      ${isDisabled ? '' : 'bg-white group-hover:bg-teal-700'}
-      `}
-      />
-      <span
-        className={`relative text-teal-700
-      ${isDisabled ? '' : 'group-hover:text-teal-100'}
-      `}
-      >
-        Register
-      </span>
+      Register
     </button>
   );
 }
