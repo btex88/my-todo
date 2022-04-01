@@ -13,7 +13,8 @@ export default function PopUpMessage() {
   } = useContext(GlobalContext);
   const { title, message } = popUpMessage;
 
-  useEffect(() => () => setPopUpMessage({ title: '', message: '' }),[])
+  useEffect(() => () => setPopUpMessage({ title: '', message: '' }), []);
+
   useEffect(() => {
     const THOUSAND = 1000;
     const timeout = setTimeout(() => {

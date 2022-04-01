@@ -1,9 +1,12 @@
 import React from 'react';
+import CreateTaskContainer from '../components/create-task-container';
+import Header from '../components/header';
 
 function Home() {
   return (
   <div>
-    <span>my toDo</span>
+    <Header />
+    <CreateTaskContainer />
   </div>
   );
 }
