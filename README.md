@@ -2,11 +2,15 @@
 Project developed in React with ContextAPI and TailwindCSS.
 
 
+# What is supposed to be?
+- This project is a simple toDo list app developed in ReactJS and only the frontend part of it
+
 ## Why does this exist?
 - This project was developed as a technical challenge to test my skills with frontend development.
 
 
 ### Main concepts used in this project were:
+- The chosen design approach was to use a responsive layout and focused on mobile screen.
 - Divide every function, functionality or element into components to better arrange and segment the code.
 - Don't be afraid to use multiple states and transform local states into global ones.
 - Use of CSS frameworks to help the development and improve the appealingness, in this case I've used TailwindCSS.
