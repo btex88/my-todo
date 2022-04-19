@@ -56,4 +56,4 @@ Project developed in React with ContextAPI and TailwindCSS.
 
 ## Vercel deployment
 
-[my toDo](https://ativy-challenge.vercel.app/)
+[my toDo](https://my-todo-lac.vercel.app/)
